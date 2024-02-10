@@ -1,0 +1,42 @@
+.clickable-circular-image {
+    width: 100px; /* Adjust image container size */
+    height: 100px; /* Adjust the container height to accommodate text */
+    text-align: center; /* Center-align text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: transform 0.2s ease-in-out;
+    border-color: darkblue;/* Add a smooth transition */
+    border-radius: 50%;
+    border-width: 5px;
+
+
+}
+
+.clickable-circular-image:hover {
+    transform: scale(1.1);
+    /*/* Enlarge the image slightly on hover */
+}
+
+.clickable-circular-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+    /* Make the image circular */
+}
+.clickable-circular-image:active{
+    border-color: red;
+}
+
+.clickable-circular-image p {
+    text-align: center;
+    font-family:"Britannic Bold";
+    -webkit-text-stroke: 1px darkblue!important;
+    color: #ffffff;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    font-size: 16px;
+}
+
+

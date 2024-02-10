@@ -1,0 +1,10 @@
+
+.knesset-flex {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust alignment as needed */
+    gap: 20px; /* Adjust spacing between boxes */
+}
+
+

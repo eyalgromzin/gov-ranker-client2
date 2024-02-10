@@ -1,0 +1,40 @@
+.cool-header {
+    padding: 20px;
+    text-align: center;
+}
+
+.cool-text {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 48px;
+    color: transparent; /* הסתרת הצבע המקורי של הטקסט */
+    background-image: linear-gradient(45deg, #3498db, #9b59b6); /* צבעי גרדיאנט */
+    -webkit-background-clip: text; /* צביעת הטקסט על פי הצבע של התמונה ברקע */
+    background-clip: text; /* גרסה רגילה של הפרופרטי */
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3)); /* הוספת צל לטקסט */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.blue-text {
+    background-image: linear-gradient(45deg,cornflowerblue, darkblue); /* צבעי גרדיאנט בצבע כחול */
+    -webkit-background-clip: text; /* צביעת הטקסט על פי הצבע של התמונה ברקע */
+    background-clip: text; /* גרסה רגילה של הפרופרטי */
+    color: transparent; /* הסתרת הצבע המקורי של הטקסט */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.gray-text {
+    background-color: #95a5a6; /* צבע רקע לטקסט אפור */
+    -webkit-background-clip: text; /* צביעת הטקסט על פי הצבע של התמונה ברקע */
+    background-clip: text; /* גרסה רגילה של הפרופרטי */
+    color: transparent; /* הסתרת הצבע המקורי של הטקסט */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}

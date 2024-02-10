@@ -1,0 +1,4 @@
+datetime will be stored as '20050505' always as UTC + 0
+
+- login to admin
+- make all admin updates to use jwt

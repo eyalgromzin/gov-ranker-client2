@@ -1,0 +1,42 @@
+.clickable-circular-image-m {
+    width: 70px; /* Adjust image container size */
+    height: 70px; /* Adjust the container height to accommodate text */
+    text-align: center; /* Center-align text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: transform 0.2s ease-in-out;
+    border-color: darkblue;/* Add a smooth transition */
+    border-radius: 50%;
+    border-width: 5px;
+    margin-bottom: 15px;
+
+}
+
+.clickable-circular-image-m:hover {
+    transform: scale(1.1);
+    /*/* Enlarge the image slightly on hover */
+}
+
+.clickable-circular-image-m img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+    /* Make the image circular */
+}
+.clickable-circular-image-m:active{
+    border-color: red;
+}
+
+.clickable-circular-image-m p {
+    text-align: center;
+    font-family:"Britannic Bold";
+    -webkit-text-stroke: 1px darkblue!important;
+    color: #ffffff;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    font-size: 13px;
+}
+
+
